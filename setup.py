@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='interceptor',
@@ -8,5 +8,5 @@ setup(
     author='Zach Smith',
     author_email='zachmsmith@gmail.com',
     url='https://github.com/zmsmith/interceptor',
-    packages=find_packages(),
+    py_modules=['interceptor'],
 )
